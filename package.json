@@ -1,0 +1,32 @@
+{
+  "name": "yt_toucher",
+  "version": "1.0.0",
+  "description": "it is an app that touch youtube without need open your browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-lucas-paes/yt_toucher.git"
+  },
+  "keywords": [
+    "yt",
+    "player",
+    "open-source"
+  ],
+  "author": "João Lucas Paes",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/joao-lucas-paes/yt_toucher/issues"
+  },
+  "homepage": "https://github.com/joao-lucas-paes/yt_toucher#readme",
+  "devDependencies": {
+    "electron": "^14.0.1",
+    "electron-nightly": "^16.0.0-nightly.20210917"
+  },
+  "dependencies": {
+    "chromedriver": "^93.0.1",
+    "puppeteer": "^10.2.0"
+  }
+}
